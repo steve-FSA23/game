@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(34, 66, 161);
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    cursor: pointer;
+    font-size: 3em;
+}
+
+#board {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+#board h1 {
+    margin: 2rem 0;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#statusText {
+    margin: 1rem;
+}
+
+#restartBtn {
+    width: 200px;
+    margin: 2rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(22, 17, 17);
+    color: whitesmoke;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+#restartBtn:hover {
+    filter: brightness(120%);
+    transform: scale(1.05);
+}
