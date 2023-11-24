@@ -1,1 +1,2 @@
-# game
+# Tic Tac Toe Game
+This simple yet classic Tic Tac Toe game offers an engaging way to enjoy the timeless strategy challenge. Built with HTML, CSS, and JavaScript, this game provides an interactive experience where players can compete against each other in turns, aiming to achieve three consecutive marks (either 'X' or 'O') horizontally, vertically, or diagonally. With its intuitive interface and responsive design, this game is perfect for both casual entertainment and honing strategic thinking. Challenge a friend, sharpen your tactics, and relive the fun of this iconic game!
