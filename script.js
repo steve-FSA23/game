@@ -28,7 +28,7 @@ function initializeGame() {
 }
 
 function cellClicked() {
-    const cellIndex = this.getAttribute("cellIndex");
+    const cellIndex = this.getAttribute("cellIndex"); // "This" refers to each cell that are being clicked
     if (options[cellIndex] != "" || !running) {
         return;
     }
